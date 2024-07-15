@@ -5,30 +5,30 @@ const Skills: React.FC = () => {
     const skillsIcon = [
         {
             skill: 'HTML',
-            icon: '/images/SkillsIcon/html.png'
+            icon: '/Images/SkillsIcon/html.png'
         },{
             skill: 'CSS',
-            icon: '/images/SkillsIcon/css.png'
+            icon: '/Images/SkillsIcon/css.png'
         },
         {
             skill: 'Tailwind CSS',
-            icon: '/images/SkillsIcon/tailwind-css.svg'
+            icon: '/Images/SkillsIcon/tailwind-css.svg'
         },
         {
             skill: 'JavaScript',
-            icon: '/images/SkillsIcon/javascript.png'
+            icon: '/Images/SkillsIcon/javascript.png'
         },
         {
             skill: 'React JS',
-            icon: '/images/SkillsIcon/react.png'
+            icon: '/Images/SkillsIcon/react.png'
         },
         {
             skill: 'Redux/toolkit',
-            icon: '/images/SkillsIcon/redux_toolkit.png'
+            icon: '/Images/SkillsIcon/redux_toolkit.png'
         },
         {
             skill: 'Next JS',
-            icon: '/images/SkillsIcon/next-js.svg'
+            icon: '/Images/SkillsIcon/next-js.svg'
         },
     ];
   

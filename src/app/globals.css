@@ -19,7 +19,7 @@
 body {
   background-color: rgb(0,24,36);
   
-  background-image: url('/images/maintest.jpg');
+  background-image: url('/Images/maintest.jpg');
   background-repeat: no-repeat;
   background-size: cover;
   background-attachment: fixed;

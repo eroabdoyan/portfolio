@@ -6,9 +6,9 @@ import React from 'react'
 
 const Contact: React.FC = () => {
   const iconsArr = [
-      '/images/icons/github.png',
-      '/images/icons/linkedin.png',
-      '/images/icons/telegram.png',
+      '/Images/icons/github.png',
+      '/Images/icons/linkedin.png',
+      '/Images/icons/telegram.png',
   ]
   const linksIcons = [
     'https://github.com/eroabdoyan',
