@@ -61,7 +61,7 @@ const Contact: React.FC = () => {
               <div className='h-[2px] w-[135px] rounded-full bg-cyan-600 shadow shadow-cyan-600'></div>
             </div>
             <div className='flex items-center'>
-              <Image src='/images/icons/gmail.png' alt='gmail' width={1000} height={1000} className='w-12 h-12'/>
+              <Image src='/Images/icons/gmail.png' alt='gmail' width={1000} height={1000} className='w-12 h-12'/>
               <h3 className='font-bold text-lg relative'
                 onMouseEnter={() => setIsHovered(true)}
                 onMouseLeave={() => setIsHovered(false)}
