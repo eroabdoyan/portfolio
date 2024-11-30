@@ -1,0 +1,24 @@
+/* main.css */
+.text-container {
+    display: inline-block;
+    white-space: normal; /* Чтобы текст мог переходить на новую строку */
+    max-width: 620px; /* Ограничиваем ширину текста */
+    word-wrap: break-word; /* Переносим слова на новую строку, если они слишком длинные */
+    font-family: monospace;
+    font-size: 1.2em;
+  }
+  
+  .animate-blink {
+    display: inline-block;
+    animation: blink 1s step-start infinite;
+  }
+  
+  @keyframes blink {
+    0%, 100% {
+      opacity: 1;
+    }
+    50% {
+      opacity: 0;
+    }
+  }
+  

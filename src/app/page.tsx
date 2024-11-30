@@ -2,7 +2,6 @@ import About from "./components/About/About";
 import ContactMe from "./components/Buttons/ContactMe";
 import DownloadCv from "./components/Buttons/DownloadCv";
 import Contact from "./components/Contact/Contact";
-import Footer from "./components/Footer/Footer";
 import Header from "./components/Header/Header";
 import Info from "./components/MainInfo/Info";
 import Logo from "./components/MainInfo/Logo";
@@ -41,7 +40,6 @@ const Home = () => {
       <section id="contact">
         <Contact />
       </section>
-      <Footer />
       <ScrollToTopButton />
     </main>
   );
