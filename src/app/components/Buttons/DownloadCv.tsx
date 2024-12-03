@@ -7,7 +7,7 @@ const DownloadCv: React.FC = () => {
     const filePath = '/CV/Erik_Abdoyan_Front-End.pdf';
     const link = document.createElement('a');
     link.href = filePath;
-    link.setAttribute('download', 'Erik_Abdoyan_Front-End_CV.pdf');
+    link.setAttribute('download', 'Erik_Abdoyan_CV.pdf');
     document.body.appendChild(link);
     link.click();
     document.body.removeChild(link);
